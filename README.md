@@ -6,18 +6,18 @@
 
 Turn hand‑drawn stroke sequences into a compact latent space and **generate new sketches** using a modular, production‑ready codebase split from a Jupyter notebook.
 
-## ✨ Highlights
+## Highlights
 - **Modular package**: `sketch/` with `dataset`, `models`, `losses`, `train`, `inference`, `utils`.
 - **Sketch‑RNN** encoder/decoder with variational latent space.
 - **Training utilities**: clean loop, loss tracking, plots.
 - **Inference tools**: sampling, most‑likely latent selection, plotting, and animation.
 
-## 📦 Installation
+## Installation
 ```bash
 pip install -e .
 ```
 
-## 🚀 Quick Start
+## Quick Start
 **Train**
 ```bash
 python scripts/train.py --data path/to/*.npz --epochs 20 --batch_size 256
@@ -28,7 +28,7 @@ python scripts/train.py --data path/to/*.npz --epochs 20 --batch_size 256
 python scripts/sample.py --checkpoint path/to/checkpoint.pth
 ```
 
-## 🗂️ Repository Structure
+## Repository Structure
 ```
 sketch/
   dataset.py       # SketchDataset + preprocess/pad
@@ -45,12 +45,12 @@ README.md
 assets/           # images extracted from the notebook
 ```
 
-## 🖼️ Gallery
+## Gallery
 ![Notebook Image 1](assets/nb_image_01.png)
 ![Notebook Image 2](assets/nb_image_02.png)
 ![Notebook Image 3](assets/nb_image_03.png)
 
-## 🧠 Model Overview
+## Model Overview
 This repo implements a variant of **Sketch‑RNN**:
 - **Encoder**: Bi‑LSTM → μ, σ (latent) via linear heads.
 - **Decoder**: RNN conditioned on z, outputs mixture parameters for (Δx, Δy) and pen states.
@@ -64,14 +64,7 @@ We expect **QuickDraw‑like** `.npz` files containing arrays of stroke sequence
 - Start with small `Nmax`, batch size, and epochs for sanity checks.
 - Use the provided CLI scripts for repeatable runs.
 
-## 📜 License
-MIT
-
----
-*Generated on 2025-09-28 19:15 UTC from your original notebook, with images extracted from notebook outputs when available.*
-
-
-## ▶️ How to Run
+## How to Run
 
 ### 1) Install
 ```bash
@@ -102,5 +95,11 @@ scikit-learn==1.4.2
 jupyter==1.0.0
 ipykernel==6.29.5
 ```
+## License
+MIT
+
+---
+*Generated on 2025-09-28 19:15 UTC from your original notebook, with images extracted from notebook outputs when available.*
 
 > Note: source files are not present in this environment snapshot, so code listings are omitted.
+
