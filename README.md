@@ -52,21 +52,21 @@ assets/           # images extracted from the notebook
 <table>
   <thead>
     <tr>
-      <th style="text-align:center;">Real</th>
-      <th style="text-align:center;">Real</th>
-      <th style="text-align:center;">Real</th>
-      <th style="text-align:center;">Real</th>
-      <th style="text-align:center;">Real</th>
+      <th style="text-align:center;">Generated</th>
+      <th style="text-align:center;">Generated</th>
+      <th style="text-align:center;">Generated</th>
+      <th style="text-align:center;">Generated</th>
+      <th style="text-align:center;">Generated</th>
     </tr>
   </thead>
   <tbody>
     <!-- Top row: REAL sketches -->
     <tr>
       <td><img src="assets/nb_image_02.png" alt="CAT" width="160"></td>
-      <td><img src="assets/gen_02.png" alt="Generated 2" width="160"></td>
-      <td><img src="assets/gen_03.png" alt="Generated 3" width="160"></td>
-      <td><img src="assets/gen_04.png" alt="Generated 4" width="160"></td>
-      <td><img src="assets/gen_05.png" alt="Generated 5" width="160"></td>
+      <td><img src="assets/nb_image_07.png" alt="BICYCLE" width="160"></td>
+      <td><img src="assets/nb_image_04.png" alt="AIRPLANE" width="160"></td>
+      <td><img src="assets/nb_image_05.png" alt="APPLE" width="160"></td>
+      <td><img src="assets/nb_image_10.png" alt="BASEBALL" width="160"></td>
     </tr>
   </tbody>
 </table>
