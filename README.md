@@ -56,10 +56,10 @@ This repo implements a variant of **Sketch‑RNN**:
 - **Decoder**: RNN conditioned on z, outputs mixture parameters for (Δx, Δy) and pen states.
 - **Loss**: mixture‑density likelihood + KL regularization.
 
-## 📊 Dataset Format
+## Dataset Format
 We expect **QuickDraw‑like** `.npz` files containing arrays of stroke sequences with columns `(dx, dy, pen_status)` where `pen_status ∈ {0,1,2}`. The dataloader converts to `(Δx, Δy, p1, p2, p3)` representation and pads to length `Nmax`.
 
-## 🛠️ Dev Tips
+## Dev Tips
 - Use a new environment (conda/venv) and **PyTorch 2.x**.
 - Start with small `Nmax`, batch size, and epochs for sanity checks.
 - Use the provided CLI scripts for repeatable runs.
