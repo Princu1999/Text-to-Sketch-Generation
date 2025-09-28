@@ -84,7 +84,7 @@ python scripts/sample.py --checkpoint path/to/checkpoint.pth
 ```
 
 
-## 🧾 Requirements (pinned)
+## Requirements (pinned)
 ```text
 torch==2.3.1
 numpy==1.26.4
