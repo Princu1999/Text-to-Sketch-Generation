@@ -62,16 +62,7 @@ assets/           # images extracted from the notebook
   <tbody>
     <!-- Top row: REAL sketches -->
     <tr>
-      <td><img src="assets/real_01.png" alt="Real 1" width="160"></td>
-      <td><img src="assets/real_02.png" alt="Real 2" width="160"></td>
-      <td><img src="assets/real_03.png" alt="Real 3" width="160"></td>
-      <td><img src="assets/real_04.png" alt="Real 4" width="160"></td>
-      <td><img src="assets/real_05.png" alt="Real 5" width="160"></td>
-    </tr>
-
-    <!-- Bottom row: GENERATED sketches -->
-    <tr>
-      <td><img src="assets/gen_01.png" alt="Generated 1" width="160"></td>
+      <td><img src="assets/nb_image_02.png" alt="CAT" width="160"></td>
       <td><img src="assets/gen_02.png" alt="Generated 2" width="160"></td>
       <td><img src="assets/gen_03.png" alt="Generated 3" width="160"></td>
       <td><img src="assets/gen_04.png" alt="Generated 4" width="160"></td>
