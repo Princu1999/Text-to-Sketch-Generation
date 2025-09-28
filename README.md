@@ -45,10 +45,40 @@ README.md
 assets/           # images extracted from the notebook
 ```
 
-## Gallery
-![Notebook Image 1](assets/nb_image_01.png)
-![Notebook Image 2](assets/nb_image_02.png)
-![Notebook Image 3](assets/nb_image_03.png)
+## Results
+<!-- Real (top) vs Generated (bottom) sketch grid -->
+<!-- Replace the src paths with your actual image files -->
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center;">Real</th>
+      <th style="text-align:center;">Real</th>
+      <th style="text-align:center;">Real</th>
+      <th style="text-align:center;">Real</th>
+      <th style="text-align:center;">Real</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Top row: REAL sketches -->
+    <tr>
+      <td><img src="assets/real_01.png" alt="Real 1" width="160"></td>
+      <td><img src="assets/real_02.png" alt="Real 2" width="160"></td>
+      <td><img src="assets/real_03.png" alt="Real 3" width="160"></td>
+      <td><img src="assets/real_04.png" alt="Real 4" width="160"></td>
+      <td><img src="assets/real_05.png" alt="Real 5" width="160"></td>
+    </tr>
+
+    <!-- Bottom row: GENERATED sketches -->
+    <tr>
+      <td><img src="assets/gen_01.png" alt="Generated 1" width="160"></td>
+      <td><img src="assets/gen_02.png" alt="Generated 2" width="160"></td>
+      <td><img src="assets/gen_03.png" alt="Generated 3" width="160"></td>
+      <td><img src="assets/gen_04.png" alt="Generated 4" width="160"></td>
+      <td><img src="assets/gen_05.png" alt="Generated 5" width="160"></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Model Overview
 This repo implements a variant of **Sketch‑RNN**:
